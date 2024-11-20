@@ -11,4 +11,7 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-/bin/
+bin/
+obj/
+.idea/
+*.DotSettings.user
