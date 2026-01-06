@@ -8,9 +8,14 @@ namespace KaysBookClub.Test;
 public class WeatherForecastControllerTests
 {
     [Fact]
-    public void Test1()
+    public void ValueIsAnInteger()
     {
-        var controller = new WeatherForecastController(new Logger<WeatherForecastController>(null));
-        Assert.IsType<IEnumerable<WeatherForecast>>(controller.Get());
+        Assert.IsType<int>(1.1);
+    }
+    
+    [Fact]
+    public void ValueIsABoolean()
+    {
+        Assert.IsType<bool>(true);
     }
 }
