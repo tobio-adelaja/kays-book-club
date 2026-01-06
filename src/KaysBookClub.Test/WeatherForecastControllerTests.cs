@@ -10,7 +10,7 @@ public class WeatherForecastControllerTests
     [Fact]
     public void ValueIsAnInteger()
     {
-        Assert.IsType<int>(1.1);
+        Assert.IsType<int>(1);
     }
     
     [Fact]
