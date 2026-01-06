@@ -1,13 +1,13 @@
-name: "First workflow!"
+name: "Feature workflow"
 
 on:
   push:
     branches: 
-      - feature/project-setup
+      - feature/*
   
 jobs:
   first_run_job:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Say hello
         run: echo "Hello World!"
