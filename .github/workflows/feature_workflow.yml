@@ -15,7 +15,7 @@ jobs:
         run: ls
         
       - name: List project files
-        run: cd src | ls
+        run: cd src && ls
         
       - name: Run units tests
         run: echo "Running tests..."
