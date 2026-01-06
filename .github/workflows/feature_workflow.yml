@@ -9,11 +9,10 @@ jobs:
   demo-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Say hello
-        run: echo "Hello World!"
+      - uses: actions/checkout@v4
+
+      - name: List repo files
+        run: ls
         
-      - name: "The time is:"
-        run: date
-        
-      - name: "Contents of the current file are:"
-        run: ls -l
+      - name: Run units tests
+        run: echo "Running tests..."
