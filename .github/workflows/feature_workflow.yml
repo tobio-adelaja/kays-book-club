@@ -20,5 +20,5 @@ jobs:
       - name: Show .NET version
         run: dotnet --info
         
-      - name: Run units tests
-        run: cd src/KaysBookClub.Test && dotnet test
+      - name: Build and test
+        run: cd src/KaysBookClub.Test && dotnet test -p:NoWarn=*
