@@ -8,9 +8,11 @@ on:
 jobs:
   demo_job:
     steps:
-      - name: Say hello
-        run: echo "Hello World!"
-      - name: The time is:
-        run: date
-      - name: Contents of the current file are:
-        run: ls -l
+      name: Say hello
+      run: echo "Hello World!"
+    steps:
+      name: The time is:
+      run: date
+    steps:
+      name: Contents of the current file are:
+      run: ls -l
