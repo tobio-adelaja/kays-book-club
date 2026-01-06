@@ -13,12 +13,6 @@ jobs:
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
-
-      - name: List repo files
-        run: ls
-        
-      - name: Show .NET version
-        run: dotnet --info
         
       - name: Build and test
         run: cd src/KaysBookClub.Test && dotnet test -p:NoWarn=*
