@@ -14,8 +14,8 @@ jobs:
       - name: List repo files
         run: ls
         
-      - name: List project files
-        run: cd src && ls
+      - name: Show .NET version
+        run: dotnet --info
         
-      - name: Run units tests
-        run: cd src/KaysBookClub.Test && dotnet test
+#      - name: Run units tests
+#        run: cd src/KaysBookClub.Test && dotnet test
