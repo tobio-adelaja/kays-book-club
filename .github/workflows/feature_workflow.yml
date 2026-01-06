@@ -11,3 +11,7 @@ jobs:
     steps:
       - name: Say hello
         run: echo "Hello World!"
+      - name: The time is:
+        run: date
+      - name: Contents of the current file are:
+        run: ls -l
