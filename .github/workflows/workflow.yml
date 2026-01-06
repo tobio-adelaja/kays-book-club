@@ -1,0 +1,13 @@
+name: "First workflow!"
+
+on:
+  push:
+    branches: 
+      - feature/project-setup
+  
+jobs:
+  first_run_job:
+    runs-on: windows-latest
+    steps:
+      - name: Say hello
+        run: echo "Hello World!"

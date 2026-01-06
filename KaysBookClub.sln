@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaysBookClub.Api", "src\KaysBookClub.Api\KaysBookClub.Api.csproj", "{89130A80-107E-44A4-9948-AFE2795B83D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaysBookClub.Test", "src\KaysBookClub.Test\KaysBookClub.Test.csproj", "{B4F64B30-D929-4AB3-988D-19BE308B11A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89130A80-107E-44A4-9948-AFE2795B83D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89130A80-107E-44A4-9948-AFE2795B83D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89130A80-107E-44A4-9948-AFE2795B83D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89130A80-107E-44A4-9948-AFE2795B83D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F64B30-D929-4AB3-988D-19BE308B11A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F64B30-D929-4AB3-988D-19BE308B11A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F64B30-D929-4AB3-988D-19BE308B11A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F64B30-D929-4AB3-988D-19BE308B11A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
