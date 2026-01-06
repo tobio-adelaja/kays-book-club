@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
 
       - name: List repo files
         run: ls
@@ -17,5 +20,5 @@ jobs:
       - name: Show .NET version
         run: dotnet --info
         
-#      - name: Run units tests
-#        run: cd src/KaysBookClub.Test && dotnet test
+      - name: Run units tests
+        run: cd src/KaysBookClub.Test && dotnet test
