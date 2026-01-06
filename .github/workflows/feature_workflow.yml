@@ -1,4 +1,4 @@
-name: "Feature workflow"
+name: Feature workflow
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - feature/*
   
 jobs:
-  demo_job:
+  demo-job:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
